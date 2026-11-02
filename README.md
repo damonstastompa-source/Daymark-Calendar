@@ -1,4 +1,4 @@
-# Daymark Calendar — v1.2.0
+# Daymark Calendar — v1.4.0
 
 A static, offline-ready calendar designed for GitHub Pages.
 
