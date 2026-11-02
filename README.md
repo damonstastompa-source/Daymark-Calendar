@@ -1,4 +1,4 @@
-# Daymark Calendar — v1.1.0
+# Daymark Calendar — v1.2.0
 
 A static, offline-ready calendar designed for GitHub Pages.
 
@@ -10,9 +10,11 @@ A static, offline-ready calendar designed for GitHub Pages.
 - Recurring-series changes/deletions: this occurrence, this and future occurrences, or entire series
 - Event fields: date, title, time, category, location, notes
 - Color-coded categories: Appointment, Meeting, Bill, Birthday, Personal
-- Five themes: High Contrast, Moonlight, Ocean, Blacklight, Ember
-- Adjustable menu drawer opacity
+- Seven themes: High Contrast, Moonlight, Ocean, Blacklight, Ember, Sunrise, Sunset
+- Overlay menu drawer, closed by default, with adjustable opacity in Settings
+- Dedicated Settings screen for appearance
 - JSON backup and restore
+- Click a date in month view to open its day view
 - Print the currently selected view
 - Local browser storage; no account or server required
 - Service worker caches the app for offline use after its first successful online load
