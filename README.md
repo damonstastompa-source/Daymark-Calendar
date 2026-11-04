@@ -1,41 +1,27 @@
-# Daymark Calendar — v1.5.0
+# Daymark Calendar — v1.7.0
 
-A static, offline-ready calendar designed for GitHub Pages.
+Offline-first personal calendar and time planner for GitHub Pages.
 
 ## Features
-- Day, week, month, and year views
-- Create, edit, and delete events
-- Recurring events: daily, weekly, every 2 weeks, monthly, yearly, and custom day intervals
-- Optional recurrence end date or occurrence count
-- Recurring-series changes/deletions: this occurrence, this and future occurrences, or entire series
-- Event fields: date, title, time, category, location, notes
-- Color-coded categories: Appointment, Meeting, Bill, Birthday, Personal
-- Seven themes: High Contrast, Moonlight, Ocean, Blacklight, Ember, Sunrise, Sunset
-- Overlay menu drawer, closed by default, with adjustable opacity in Settings
-- Dedicated Settings screen for appearance
-- JSON backup and restore
-- Click a date in month view to open its day view
-- Print the currently selected view
+- Day, Week, Month, Year, Day Flow, and Agenda views
+- Events, all-day events, durations, recurring events, and series exceptions
+- Multiple workplaces with independent colors and weekly schedules
+- Manual work shifts and per-workplace schedule templates
+- Scheduled and actual work times, break duration, and weekly hour summaries
+- Overall and per-workplace availability settings
+- Day Flow timeline with open-time estimates and commitments
+- Agenda lists upcoming events chronologically
+- Conflict visibility through the calendar's overlapping event blocks
+- Seven themes, adjustable overlay drawer, JSON backup/restore, and printing
 - Local browser storage; no account or server required
-- Service worker caches the app for offline use after its first successful online load
 
-## GitHub Pages
-1. Create a repository.
-2. Upload the four files in this folder to the repository root.
-3. In **Settings → Pages**, deploy from your main branch and root (`/`).
-4. Open the published site once while online. Then it can load offline from that browser/device.
+## Deploy
+Upload the five files in this folder to the repository root and enable GitHub Pages from the main branch/root. Open once online to install the service worker; subsequent visits can work offline.
 
-## Data & privacy
-Events and preferences are stored in this browser's local storage. They do not automatically sync between devices or browsers. Use **Backup calendar** to export a JSON file and keep it somewhere safe. Restore replaces the current event list.
+## Data
+Events, workplaces, schedules, and availability are stored locally. Use Backup calendar regularly. Backups include both calendar events and Work module data. Restore replaces existing event and workplace data.
 
 ## Notes
-- Browser storage can be cleared by device/browser cleanup. Keep backups.
-- Offline availability requires the app to be loaded once over HTTPS first.
-- Printing uses the browser's print dialog; choose landscape for month/week layouts if desired.
-
-
-## v1.5.0 updates
-- Selecting a month name in Year view opens that month in Month view.
-- Week view keeps its weekday/date header pinned while the hourly schedule scrolls; selecting a weekday/date opens that day in Day view.
-- Timed events support an optional end time. Their duration is shown in Day and Week views, and event blocks scale to the duration.
-- All-day events and recurring events remain supported.
+- Day Flow estimates open time from the gaps between timed events; it does not infer travel time or automatically reserve buffers.
+- Actual work hours are optional manual records, not payroll calculations.
+- Workplaces can be deactivated without deleting their associated event history.
