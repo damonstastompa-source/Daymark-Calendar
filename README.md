@@ -1,4 +1,4 @@
-# Daymark Calendar — v1.4.0
+# Daymark Calendar — v1.5.0
 
 A static, offline-ready calendar designed for GitHub Pages.
 
@@ -32,3 +32,10 @@ Events and preferences are stored in this browser's local storage. They do not a
 - Browser storage can be cleared by device/browser cleanup. Keep backups.
 - Offline availability requires the app to be loaded once over HTTPS first.
 - Printing uses the browser's print dialog; choose landscape for month/week layouts if desired.
+
+
+## v1.5.0 updates
+- Selecting a month name in Year view opens that month in Month view.
+- Week view keeps its weekday/date header pinned while the hourly schedule scrolls; selecting a weekday/date opens that day in Day view.
+- Timed events support an optional end time. Their duration is shown in Day and Week views, and event blocks scale to the duration.
+- All-day events and recurring events remain supported.
